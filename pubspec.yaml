@@ -1,0 +1,48 @@
+name: learningapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  persian_number_utility: ^1.1.3
+  lottie: ^2.3.2
+  flutter_session_manager: ^1.0.3
+  # file_picker: ^5.3.1
+  # dropdown_search: ^5.0.6
+  # dropdown_button2: ^2.1.4
+  flutter_svg: ^2.0.5
+  pin_code_fields: ^8.0.1
+  figma_squircle: ^0.5.3
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/bg/
+    - assets/svg/
+    - assets/img/
+    - assets/lotties/
+    - assets/tests/
+
+  fonts: 
+    - family: Shabnam
+      fonts: 
+        - asset: assets/fonts/Shabnam.ttf
+        - asset: assets/fonts/Shabnam-Bold.ttf
+        - asset: assets/fonts/Shabnam-Light.ttf
+        - asset: assets/fonts/Shabnam-Medium.ttf
+        - asset: assets/fonts/Shabnam-Thin.ttf
+  uses-material-design: true
+
